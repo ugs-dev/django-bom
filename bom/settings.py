@@ -29,6 +29,7 @@ if not BASE_DIR:
 # See https://docs.djangoproject.com/en/1.10/howto/deployment/checklist/
 
 # Application definition
+DEBUG = False  # or True depending on your environment
 
 INSTALLED_APPS = [
     'bom.apps.BomConfig',
